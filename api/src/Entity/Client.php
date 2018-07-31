@@ -68,50 +68,6 @@ class Client
     }
 
 
-    /**
-     * Get the value of Username
-     *
-     * @return string The username of the user.
-     */
-    public function getUsername()
-    {
-        return $this->username;
-    }
-
-
-    /**
-     * Get the value of Email
-     *
-     * @return string The e-mail of the user.
-     */
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-
-    /**
-     * Get the value of Password
-     *
-     * @return string The password of the user.
-     */
-    public function getPassword()
-    {
-        return $this->password;
-    }
-
-
-    /**
-     * Get the value of Users
-     *
-     * @return User[] Available users for this client.
-     */
-    public function getUsers()
-    {
-        return $this->users;
-    }
-
-
     public function __construct() {
         $this->users = new ArrayCollection();
     }
