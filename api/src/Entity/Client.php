@@ -76,21 +76,6 @@ class Client
 
 
     /**
-     * Set the value of Id
-     *
-     * @param int The entity Id id
-     *
-     * @return self
-     */
-    public function setId(int $id)
-    {
-        $this->id = $id;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Model
      *
      * @return string The model of the phone.
@@ -98,21 +83,6 @@ class Client
     public function getModel()
     {
         return $this->model;
-    }
-
-
-    /**
-     * Set the value of Model
-     *
-     * @param string The model of the phone. model
-     *
-     * @return self
-     */
-    public function setModel(string $model)
-    {
-        $this->model = $model;
-
-        return $this;
     }
 
 
@@ -128,21 +98,6 @@ class Client
 
 
     /**
-     * Set the value of Username
-     *
-     * @param string The username of the user. username
-     *
-     * @return self
-     */
-    public function setUsername(string $username)
-    {
-        $this->username = $username;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Email
      *
      * @return string The e-mail of the user.
@@ -154,21 +109,6 @@ class Client
 
 
     /**
-     * Set the value of Email
-     *
-     * @param string The e-mail of the user. email
-     *
-     * @return self
-     */
-    public function setEmail(string $email)
-    {
-        $this->email = $email;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Password
      *
      * @return string The password of the user.
@@ -176,21 +116,6 @@ class Client
     public function getPassword()
     {
         return $this->password;
-    }
-
-
-    /**
-     * Set the value of Password
-     *
-     * @param string The password of the user. password
-     *
-     * @return self
-     */
-    public function setPassword(string $password)
-    {
-        $this->password = $password;
-
-        return $this;
     }
 
 

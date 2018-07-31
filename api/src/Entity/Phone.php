@@ -116,21 +116,6 @@ class Phone
 
 
     /**
-     * Set the value of Id
-     *
-     * @param int The entity Id id
-     *
-     * @return self
-     */
-    public function setId(int $id)
-    {
-        $this->id = $id;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Model
      *
      * @return string The model of the phone.
@@ -138,21 +123,6 @@ class Phone
     public function getModel()
     {
         return $this->model;
-    }
-
-
-    /**
-     * Set the value of Model
-     *
-     * @param string The model of the phone. model
-     *
-     * @return self
-     */
-    public function setModel(string $model)
-    {
-        $this->model = $model;
-
-        return $this;
     }
 
 
@@ -168,21 +138,6 @@ class Phone
 
 
     /**
-     * Set the value of Brand
-     *
-     * @param string The brand of the phone. brand
-     *
-     * @return self
-     */
-    public function setBrand(string $brand)
-    {
-        $this->brand = $brand;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Operating System
      *
      * @return string The OS of the phone.
@@ -190,21 +145,6 @@ class Phone
     public function getOperatingSystem()
     {
         return $this->operating_system;
-    }
-
-
-    /**
-     * Set the value of Operating System
-     *
-     * @param string The OS of the phone. operating_system
-     *
-     * @return self
-     */
-    public function setOperatingSystem(string $operating_system)
-    {
-        $this->operating_system = $operating_system;
-
-        return $this;
     }
 
 
@@ -220,21 +160,6 @@ class Phone
 
 
     /**
-     * Set the value of Color
-     *
-     * @param string The color of the phone. color
-     *
-     * @return self
-     */
-    public function setColor(string $color)
-    {
-        $this->color = $color;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Screen Size
      *
      * @return string The screen size of the phone.
@@ -242,21 +167,6 @@ class Phone
     public function getScreenSize()
     {
         return $this->screen_size;
-    }
-
-
-    /**
-     * Set the value of Screen Size
-     *
-     * @param string The screen size of the phone. screen_size
-     *
-     * @return self
-     */
-    public function setScreenSize(string $screen_size)
-    {
-        $this->screen_size = $screen_size;
-
-        return $this;
     }
 
 
@@ -272,21 +182,6 @@ class Phone
 
 
     /**
-     * Set the value of Sim
-     *
-     * @param string The sim of the phone. sim
-     *
-     * @return self
-     */
-    public function setSim(string $sim)
-    {
-        $this->sim = $sim;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Network
      *
      * @return string The network of the phone.
@@ -294,21 +189,6 @@ class Phone
     public function getNetwork()
     {
         return $this->network;
-    }
-
-
-    /**
-     * Set the value of Network
-     *
-     * @param string The network of the phone. network
-     *
-     * @return self
-     */
-    public function setNetwork(string $network)
-    {
-        $this->network = $network;
-
-        return $this;
     }
 
 
@@ -324,21 +204,6 @@ class Phone
 
 
     /**
-     * Set the value of Memory
-     *
-     * @param int The memory of the phone. memory
-     *
-     * @return self
-     */
-    public function setMemory(int $memory)
-    {
-        $this->memory = $memory;
-
-        return $this;
-    }
-
-
-    /**
      * Get the value of Ram
      *
      * @return int The ram of this phone.
@@ -346,21 +211,6 @@ class Phone
     public function getRam()
     {
         return $this->ram;
-    }
-
-
-    /**
-     * Set the value of Ram
-     *
-     * @param int The ram of this phone. ram
-     *
-     * @return self
-     */
-    public function setRam(int $ram)
-    {
-        $this->ram = $ram;
-
-        return $this;
     }
 
 
@@ -373,20 +223,4 @@ class Phone
     {
         return $this->photo_resolution;
     }
-
-
-    /**
-     * Set the value of Photo Resolution
-     *
-     * @param int The photo resolution of the phone. photo_resolution
-     *
-     * @return self
-     */
-    public function setPhotoResolution(int $photo_resolution)
-    {
-        $this->photo_resolution = $photo_resolution;
-
-        return $this;
-    }
-
 }
