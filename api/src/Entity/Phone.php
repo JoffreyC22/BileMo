@@ -85,7 +85,7 @@ class Phone
      *
      * @ORM\Column(type="integer")
      */
-    private $memory;
+    public $memory;
 
 
     /**
@@ -93,7 +93,7 @@ class Phone
      *
      * @ORM\Column(type="integer")
      */
-    private $ram;
+    public $ram;
 
 
     /**
@@ -101,7 +101,7 @@ class Phone
      *
      * @ORM\Column(type="integer")
      */
-    private $photo_resolution;
+    public $photo_resolution;
 
 
     /**

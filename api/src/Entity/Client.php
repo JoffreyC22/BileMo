@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -22,14 +23,6 @@ class Client
      * @ORM\Column(type="integer")
      */
     private $id;
-
-
-    /**
-     * @var string The model of the phone.
-     *
-     * @ORM\Column
-     */
-    public $model;
 
 
     /**
@@ -76,17 +69,6 @@ class Client
 
 
     /**
-     * Get the value of Model
-     *
-     * @return string The model of the phone.
-     */
-    public function getModel()
-    {
-        return $this->model;
-    }
-
-
-    /**
      * Get the value of Username
      *
      * @return string The username of the user.
@@ -129,4 +111,8 @@ class Client
         return $this->users;
     }
 
+
+    public function __construct() {
+        $this->users = new ArrayCollection();
+    }
 }
